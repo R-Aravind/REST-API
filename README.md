@@ -1,17 +1,16 @@
 # REST API
 
-##Made with Django="2.0.13" and Python="3.6.8"
+## Made with Django="2.0.13" and Python="3.6.8"
 
-##Required
+## Required
 + django-tastypie
 
 `python manage.py runserver` to start  
 
-##Requests
+## Requests
 + `<POST> http://127.0.0.1:8000/api/note/ ` 
 
 ```javascript
-Objects:
 {
     "title": <title-placeholder>,
     "content":<content-placeholder>,
